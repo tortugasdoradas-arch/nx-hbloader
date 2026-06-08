@@ -6,6 +6,8 @@ jobs:
   build:
     name: Build and Release nx-hbloader
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     container: devkitpro/devkita64:latest
 
     steps:
